@@ -5,6 +5,7 @@ set shortmess+=c
 let g:coc_global_extensions = [
 	\'coc-json',
 	\'coc-marketplace',
+	\'coc-rls',
 	\'coc-pyright']
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
